@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: rgb(99, 34, 180);
+    color: white;
+    padding: 20px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+aside ul li{
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+aside ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+aside ul li{
+    display: block;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+section{
+    width: 70%;
+}
+
+article{
+    width: 95%;
+    background-color: black;
+}
+
+aside{
+    width: 30%;
+}
+
+footer{
+    background-color: rgb(99, 34, 180);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+header img{
+    display: inline-block;
+    vertical-align: middle; /*Alinha verticalmente a imagem com o texto*/
+    width: 100px;/*Define a largura da imagem*/
+    height: auto;/*Mantém a proporção da imagem*/
+}
+header h1{
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;/*Alinha verticalmente o texto com a imagem;*/
+}
+/*Estilizando o evento hover*/
+ul li a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    background: pink;
+}
+ul li a:active{
+    background: rebeccapurple;
+}
